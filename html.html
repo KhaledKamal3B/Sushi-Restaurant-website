@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="css/css.css">
+
+        <title>Responsive sushi website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+        <nav class="nav container" >
+        <div class="nav__logo">
+            <img src="img/lo.png" alt="logo image">
+           <p class="name" > sushi</p>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+                
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About </a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="#popular" class="nav__link">Popular</a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="#recently" class="nav__link">Recently</a>
+                </li>
+                <li class="nav__item">
+                    <a href="login.html" class="nav__link">Login & Register</a>
+                </li>
+            </ul>
+            <!--close button-->
+            <div class="nav__close" id="nav__close">
+                <i class="ri-close-line"></i>
+            </div>
+
+            <!-- <img src="img/leaf-branch-4.png" alt="nav image" class="nav__img-1">
+            <img src="img/leaf-branch-3.png" alt="nav image" class="nav__img-2"> -->
+            
+        </div>
+
+        <div class="nav__buttons">
+
+                    <!---theme change button-->
+                    
+         <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                     <!---toggle button-->
+        <div class="nav__toggle" id="nav__toggle">
+            <i class="ri-apps-2-line"></i>
+        </div>
+         
+        </div>
+        </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+             <div class="home__container container grid">
+
+              <div class="data">
+            <h1 class="home__title">
+                Enjoy Delicious
+
+             <div>
+               <img src="img/home-sushi-title.png"  alt="home image">
+               Sushi Food
+             </div>
+
+            </h1>
+            
+            <p class="home__description">
+                Enjoy a good dinner with the best dishes in 
+                the restaurant and improve your day.
+
+             </p>
+
+             <a href="#" class="button">
+                Order Now <i class="ri-arrow-right-line"></i>
+             </a>
+             </div> 
+             <div class="photo">
+                <img src="img/home-sushi-rolls.png" alt="home image " >
+               </div>
+
+             </div> 
+
+             
+             
+            </section>
+
+            <!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+<span class="section__subtitle">About Us</span>
+
+<div class="container ">
+<div class="photo">
+<img src="img/about-sushi.png" alt="about image">
+
+</div> 
+<div class="data">
+<h2>
+provide healthy food ....!
+</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam fuga ipsa dolorem rerum facilis eos. Dolore magni in laborum accusamus, et quod fuga, quas, aut culpa veritatis quibusdam rerum.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, doloribus. Voluptatibus nihil illum numquam quis temporibus vero amet voluptatem reprehenderit, repellendus cumque, voluptatum accusamus possimus officiis ullam soluta recusandae! Nulla.</p>
+</div>
+</div>
+</section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+               <span class="section__subtitle">The Best Food</span>
+               <h2 class="section__title">Popular Dishes</h2>
+               <div class="' container ">
+ 
+                <article class="popular__card">
+                    
+                    <img src="img/or.png" alt="popular image" >
+
+                    <h3 class="popular__name">Onigiri</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$10.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                
+                <article class="popular__card">
+                    <img src="img/ki.png" alt="" class="">
+
+                    <h3 class="popular__name">Spring Rolls</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$15.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="img/is.png" alt="" class="">
+
+                    <h3 class="popular__name">Sushi Rolls</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$19.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+               </div>
+            </section>
+
+            <!--==================== RECENTLY ====================-->
+            <section class="recently section" id="recently">
+                <div class=" container ">
+                    <div class="recently__data">
+                        <span class="section__subtitle">Recently Added</span>
+                        <h2 class="section__title">
+                            Sushi Samurai <br>
+                            Salmón Cheese 
+                        </h2>
+
+                        <p class="recently__description">
+                            Take a look at what's new. And do not deprive 
+                            yourself of a good meal, enjoy and be happy.
+                        </p>
+
+                        <a href="#" class="button">
+                            Order Now <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                        <img src="img/spinach-leaf.png" alt="recently image" class="recently__data-img">
+
+                    </div>
+
+                    <img src="img/recently-salmon-sushi.png" alt="recently image" class="recently__img">
+
+                </div>
+                
+                <img src="img/br2.png" alt="recently image" class="recently__leaf-1">
+                <img src="img/le3.png" alt="recently image" class="recently__leaf-2">
+
+            
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section">
+               <div class="newsletter__ container container">
+                <div class="newsletter__ content grid">
+                    <!-- <img src="img/newsletter-sushi.png" alt="newsletter image" class="newsletter__img"> -->
+
+
+                    <div class="newsletter__ data">
+                        <span class="section__subtitle">Newsletter</span>
+                        <h2 class="section__title">
+                            Subscribe For <br>
+                            Offer Updates
+ 
+                        </h2>
+
+                        <form action="" class="newsletter__form">
+                            <input type="email" placeholder="Enter email" class="newsletter__input">
+
+                            <button class="button newsletter__button">
+                                Subscribe <i class="ri-send-plane-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <img src="img/spinach-leaf.png" alt="newsletter image" class="newsletter__spinach">
+
+
+               </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+      <!--Footer Area Start-->
+      <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <i class="fab fa-slack"></i>
+
+            </div>
+            
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <hr>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Company</li>
+              <li><a href="#home">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#recently">Recently</a></li>
+              <li><a href="#popular">Popular</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Services</li>
+              <li><a href="#">fast delivery</a></li>
+              <li><a href="#">24/7 delivery</a></li>
+              <li><a href="#">fresh</a></li>
+              <li><a href="#">high quality</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Account</li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">Prefrences</a></li>
+              <li><a href="#">Purchase</a></li>
+            </ul>
+
+            <ul class="box input-box">
+              <li class="link_name">Subscribe</li>
+              <li><input type="text" placeholder="Enter your email"></li>
+              <li><input type="button" value="Subscribe"></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright &copy; 2023 All rights reserved</span>
+          </div>
+        </div>
+      </footer>
+    <!--Footer Area End-->
+
+        <!--========== SCROLL UP ==========-->
+
+
+
+
+
+
+                <!--=============== SCROLLREVEAL ===============-->
+                
+
+                <!--=============== MAIN JS ===============-->
+                <script src="js/main.js"></script>
+        <!--====== SCROLLREVEAL======-->
+        <script src="js/scrollreveal.min.js"></script>
+        <!--=========MAIN JS =========-->
+        <script src="js/main.js"></script>
+    </body>
+    </html>
